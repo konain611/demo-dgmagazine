@@ -6,7 +6,7 @@ export default function SubNavbar() {
       <div className="mx-auto flex flex-wrap items-center justify-center gap-x-6 gap-y-2 px-4 py-3 lg:gap-x-10">
         <Link
           href="/message-from-the-chief-editor"
-          className="px-2 py-1 text-center flex items-center gap-2 text-sm font-medium uppercase tracking-wide transition-colors hover:text-[#003366]"
+          className="px-2 py-1 text-center flex items-center gap-2 text-sm font-medium uppercase tracking-wide transition-colors hover:text-[#00182f]"
         >
           <i className="ri-edit-box-line" />
           Message from the Chief Editor
@@ -14,7 +14,7 @@ export default function SubNavbar() {
 
         <Link
           href="/editorial-board"
-          className="px-2 py-1 text-center flex items-center gap-2 text-sm font-medium uppercase tracking-wide transition-colors hover:text-[#003366]"
+          className="px-2 py-1 text-center flex items-center gap-2 text-sm font-medium uppercase tracking-wide transition-colors hover:text-[#00182f]"
         >
           <i className="ri-team-line" />
           Editorial Board
@@ -22,7 +22,7 @@ export default function SubNavbar() {
 
         <Link
           href="/subscription"
-          className="px-2 py-1 text-center flex items-center gap-2 text-sm font-medium uppercase tracking-wide transition-colors hover:text-[#003366]"
+          className="px-2 py-1 text-center flex items-center gap-2 text-sm font-medium uppercase tracking-wide transition-colors hover:text-[#00182f]"
         >
           <i className="ri-vip-crown-2-line" />
           Subscription
@@ -30,7 +30,7 @@ export default function SubNavbar() {
 
         <Link
           href="/download-pdf"
-          className="px-2 py-1 text-center flex items-center gap-2 text-sm font-medium uppercase tracking-wide transition-colors hover:text-[#003366]"
+          className="px-2 py-1 text-center flex items-center gap-2 text-sm font-medium uppercase tracking-wide transition-colors hover:text-[#00182f]"
         >
           <i className="ri-git-repository-line" />
           Editor's Library

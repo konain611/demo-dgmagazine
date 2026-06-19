@@ -26,7 +26,7 @@ export default function Header() {
   }
 
   return (
-    <div className="bg-white dark:bg-gray-900  flex items-center justify-between w-full px-2 sm:px-4 py-2 transition-colors">
+    <div className="bg-white flex items-center justify-between w-full px-2 sm:px-4 py-2 transition-colors">
       <div className="flex items-center shrink-0">
         <Image
           src="/logos/logo-h.jpg"
@@ -41,7 +41,7 @@ export default function Header() {
       <div className="flex items-center gap-2">
         <button
           type="button"
-          className="flex items-center mx-2 gap-2 px-3 py-2 text-sm font-medium text-[#003366] hover:bg-slate-100"
+          className="flex items-center mx-2 gap-2 px-3 py-2 text-sm font-medium text-[#001c38] hover:bg-slate-100"
         >
           <i className="ri-global-line text-base text-slate-600 dark:text-slate-400" />
           <span>English</span>
@@ -52,7 +52,7 @@ export default function Header() {
           <button
             type="button"
             onClick={() => setIsOpen(!isOpen)}
-            className="flex items-center mx-2 gap-2 px-3 py-2 text-sm font-medium text-[#003366] hover:bg-slate-100"
+            className="flex items-center mx-2 gap-2 px-3 py-2 text-sm font-medium text-[#001c38] hover:bg-slate-100"
           >
             <span className="flex h-4 w-4 items-center justify-center">
               {getThemeIcon()}
@@ -106,7 +106,7 @@ export default function Header() {
 
         <button
           type="button"
-          className="flex items-center mx-2 gap-2 px-3 py-2 text-sm font-medium text-[#003366] hover:bg-slate-100"
+          className="flex items-center mx-2 gap-2 px-3 py-2 text-sm font-medium text-[#001c38] hover:bg-slate-100"
           aria-label="Notifications"
         >
           <i className="ri-notification-3-line text-lg" />
@@ -114,7 +114,7 @@ export default function Header() {
 
         <button
           type="button"
-          className="rounded-full bg-[#003366] mx-2 px-4 py-2 text-sm font-semibold text-white transition hover:bg-[#004c97]"
+          className="rounded-full bg-[#001c38] mx-2 px-4 py-2 text-sm font-semibold text-white transition hover:bg-[#003366]"
         >
           Sign in
         </button>

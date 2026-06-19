@@ -64,7 +64,7 @@ export default function Footer() {
                 <div className="border-l border-white/20 py-2 px-5">
                     <h3 className="mb-2 text-lg font-semibold">Quick Links</h3>
 
-                    <div className="flex flex-col text-sm text-gray-300">
+                    <div className="flex flex-col gap-0.5 text-sm text-gray-300">
                         <Link href="/newsroom" className="hover:text-[#FF9102]">Newsroom</Link>
                         <Link href="/research" className="hover:text-[#FF9102]">Research</Link>
                         <Link href="/threat-intelligence" className="hover:text-[#FF9102]">Threat Intelligence</Link>
@@ -79,7 +79,7 @@ export default function Footer() {
                 <div className="border-l border-white/20 py-2 px-5">
                     <h3 className="mb-2 text-lg font-semibold">Resources</h3>
 
-                    <div className="flex flex-col text-sm text-gray-300">
+                    <div className="flex flex-col gap-0.5 text-sm text-gray-300">
                         <Link href="/subscription" className="hover:text-[#FF9102]">Subscription</Link>
                         <Link href="/editions-library" className="hover:text-[#FF9102]">Editions Library</Link>
                         <Link href="/editorial-board" className="hover:text-[#FF9102]">Editorial Board</Link>
@@ -92,7 +92,7 @@ export default function Footer() {
                 <div className="border-l border-white/20 py-2 px-5">
                     <h3 className="mb-2 text-lg font-semibold">Legal</h3>
 
-                    <div className="flex flex-col text-sm text-gray-300">
+                    <div className="flex flex-col gap-0.5 text-sm text-gray-300">
                         <Link href="/privacy-policy" className="hover:text-[#FF9102]">Privacy Policy</Link>
                         <Link href="/terms-and-conditions" className="hover:text-[#FF9102]">Terms & Conditions</Link>
                         <Link href="/editorial-policy" className="hover:text-[#FF9102]">Editorial Policy</Link>
