@@ -1,9 +1,24 @@
+import HomepageLayout from "@/components/layout/Homepage";
 import SubNavbar from "@/components/menus/Subnavbar";
+import Carousel from "@/components/layoutContent/Carousel";
+import NewsLetter from "@/components/layoutContent/NewsLetter";
+import LatestEdition from "@/components/layoutContent/LatestEdition";
+import BreakingNews from "@/components/layoutContent/BreakingNews";
+import FeaturedResearch from "@/components/layoutContent/FeaturedResearch";
+import ThreatIntelligence from "@/components/layoutContent/ThreatIntelligence";
 
 export default function Home() {
   return (
    <div className="min-h-[50vh] transition-colors">
    <SubNavbar />
+   <HomepageLayout
+    firstRowLeft={<Carousel />}
+    secondRowFirst={<BreakingNews />}
+    secondRowSecond={<FeaturedResearch />}
+    secondRowThirdTop={<ThreatIntelligence />}
+    secondRowFourthTop={<LatestEdition />}
+    secondRowFourthBottom={<NewsLetter />}
+   />
    </div>
   );
 }

@@ -25,7 +25,7 @@ export default function Navbar() {
 
   return (
     <nav className="w-full bg-[#001c38]">
-      <div className="mx-auto flex h-15 max-w-[90%] items-center justify-between px-6">
+      <div className="mx-auto flex h-15 max-w-[90%] items-center justify-between px-4">
         <div className="flex items-center divide-x divide-white/20">
           {navItems.map((item) => {
             const href = createRoute(item.label);
@@ -35,7 +35,7 @@ export default function Navbar() {
               <Link
                 key={item.label}
                 href={href}
-                className={`group flex items-center gap-1 px-4 text-sm font-medium transition-colors duration-200 ${
+                className={`group flex uppercase items-center gap-1 px-3 text-[13px] font-medium transition-colors duration-200 ${
                   isActive
                     ? "text-[#FF9102]"
                     : "text-white hover:text-[#FF9102]"
