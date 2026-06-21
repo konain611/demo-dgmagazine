@@ -222,8 +222,8 @@ export default function Navbar() {
                 <Link
                   href={href}
                   className={`group flex shrink-0 items-center gap-1 whitespace-nowrap uppercase px-2.5 text-[13px] font-medium transition-colors duration-200 ${isActive
-                      ? "text-[#FF9102]"
-                      : "text-white hover:text-[#FF9102]"
+                    ? "text-[#FF9102]"
+                    : "text-white hover:text-[#FF9102]"
                     }`}
                 >
                   <span>{item.label}</span>
@@ -305,7 +305,7 @@ export default function Navbar() {
 
         <button
           aria-label="Search"
-          className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full transition hover:text-[#FF9102]"
+          className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full transition text-white  hover:text-[#FF9102]"
         >
           <i className="ri-search-line text-lg" />
         </button>
