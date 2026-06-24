@@ -10,7 +10,7 @@ import Footer from "@/components/footer/Footer";
 
 export default function Home() {
   return (
-   <div className="min-h-[50vh] transition-colors">
+   <div >
    <SubNavbar />
    <HomepageLayout
     firstRowLeft={<Carousel />}
